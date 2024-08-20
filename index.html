@@ -57,7 +57,7 @@
                 </div>
                 <a class="font-semibold text-xl">Biker Zone</a>
             </div>
-            <div class="navbar-center hidden lg:flex">
+            <div class="navbar-center hidden lg:block">
                 <ul class="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
                     <li><a>Shop</a></li>
@@ -70,7 +70,7 @@
             </div>
         </div>
         <!-- Slider/Carousel  -->
-        <div class="carousel w-full bg-bike-primary-bg mt-24">
+        <div class="carousel w-full bg-bike-primary-bg lg:mt-16 mt-12">
             <!-- Slide One -->
             <div id="slide1" class="carousel-item relative w-full">
                 <!-- content  -->
@@ -84,7 +84,7 @@
 
                     </div>
                     <!-- image content  -->
-                    <div class="flex-1 border">
+                    <div class="flex-1">
                         <img class="w-[400px]" src="./images/slider/bike1.png" alt="">
                     </div>
                 </div>
@@ -141,7 +141,61 @@
     </header>
     <!-- Main section  -->
     <main class="md:container mx-auto">
+        <!-- Latest Bike Section  -->
+        <section class="my-24 px-5">
+            <h2 class="text-center text-5xl font-bold mb-12">Latest Bike</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <!-- card one  -->
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure>
+                        <img class="w-full p-5" src="./images/others/latest1.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                        <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
+                        <div class="card-actions">
+                            <button class="btn bg-bike-primary text-white">Read More</button>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- card two  -->
+                <div>
+                    <div class="card card-compact bg-base-100 shadow-xl">
+                        <figure>
+                            <img class="w-full p-5" src="./images/others/latest2.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body space-y-5">
+                            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed
+                                id nisi lectus at.</p>
+                            <div class="card-actions">
+                                <button class="btn bg-bike-primary text-white">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card three  -->
+                <div>
+                    <div class="card card-compact bg-base-100 shadow-xl">
+                        <figure>
+                            <img class="w-full p-5" src="./images/others/latest3.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body space-y-5">
+                            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed
+                                id nisi lectus at.</p>
+                            <div class="card-actions">
+                                <button class="btn bg-bike-primary text-white">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
